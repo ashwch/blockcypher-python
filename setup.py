@@ -11,7 +11,7 @@ setup(name='blockcypher',
       author_email='mflaxman+blockcypher@gmail.com',
       url='https://github.com/blockcypher/blockcypher-python/',
       install_requires=[
-          'requests<3.0.0',
+          'requests>=2.18.0',
           'python-dateutil<3.0.0',
           'bitcoin==1.1.39',
           ],
